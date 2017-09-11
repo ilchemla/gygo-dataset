@@ -25,8 +25,10 @@ In our internal (soon to be published) analysis we have shown that a joint train
 
 
 # Contributors
+(order to be decided)
+
 Itamar Friedman, 
-Eddie Smolyansky, 
+Eddie Smolyansky,
 Ilan Chemla, 
 Maxim Stepanov, 
 Irina Afanasyeva, 
