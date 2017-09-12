@@ -19,13 +19,13 @@ In our internal (soon to be published) analysis we have shown that a joint train
 - To promote a more open, sharing culture and encourage other researchers to join our efforts :) The DAVIS dataset and the research ecosystem that grew it have been massively useful for us. We hope the community will find our datasets useful as well.
 
 ## Links
-**Introductory blog posts:** 
-
-[insert links here]
-
 **Teaser:** 
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/4RQff9bfJsk/0.jpg)](http://www.youtube.com/watch?v=4RQff9bfJsk "GyGO E-commerce Video Object Segmentation Dataset Teaser")
+
+[Blog post: Video Object Segmentation — The Basics](https://medium.com/@eddiesmo/video-object-segmentation-the-basics-758e77321914)
+
+[Blog post: A Meta-analysis of DAVIS-2017 Video Object Segmentation Challenge](https://medium.com/@eddiesmo/a-meta-analysis-of-davis-2017-video-object-segmentation-challenge-c438790b3b56)
 
 
 [DAVIS Challenge (video object segmentation datasets)](http://davischallenge.org/)
