@@ -5,7 +5,7 @@
 
 **To get updates as we continually release the dataset, add this project to your "watch" list in github**
 
-GyGO, which we will release in parts over the following weeks, is a dataset that is focused on a specific, simple use case for video object segmentation: e-commerce. 
+GyGO (pronounced jai-go), which we will release in parts over the following weeks, is a dataset that is focused on a specific, simple use case for video object segmentation: e-commerce. 
 It will eventually consist of hundreds of short videos and was partly inspired by the release of the DAVIS datasets (link below).
 
 On the one hand, the sequences are quite simple in that they are virtually devoid of occlusions, fast motions or many of the other complexity inducing attributes mentioned above. 
@@ -25,18 +25,15 @@ In our internal (soon to be published) analysis we have shown that a joint train
 
 **Teaser:** 
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE "Video Title")
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/4RQff9bfJsk/0.jpg)](http://www.youtube.com/watch?v=4RQff9bfJsk "GyGO E-commerce Video Object Segmentation Dataset Teaser")
 
-(insert link here)
 
 [DAVIS Challenge (video object segmentation datasets)](http://davischallenge.org/)
 
 ## Contributors
-(order to be decided)
-
 Itamar Friedman, 
-Eddie Smolyansky,
 Ilan Chemla, 
+Eddie Smolyansky,
 Maxim Stepanov, 
 Irina Afanasyeva, 
 Gilad Sharir, 
