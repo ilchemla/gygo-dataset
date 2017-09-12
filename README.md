@@ -3,8 +3,10 @@
 
 ---
 
+**To get updates as we continually release the dataset, add this project to your "watch" list in github**
+
 GyGO, which we will release in parts over the following weeks, is a dataset that is focused on a specific, simple use case for video object segmentation: e-commerce. 
-It will eventually consist of hundreds of short videos.
+It will eventually consist of hundreds of short videos and was partly inspired by the release of the DAVIS datasets (link below).
 
 On the one hand, the sequences are quite simple in that they are virtually devoid of occlusions, fast motions or many of the other complexity inducing attributes mentioned above. 
 On the other hand, the objects in these videos vary wildly in their "semantic categories": toys, cloths, models and office stuff.
@@ -16,15 +18,20 @@ With only hundreds of annotated videos, we believe every contribution has the po
 In our internal (soon to be published) analysis we have shown that a joint training on the GyGO and DAVIS datasets yields improved inference results. [todo: confirm]
 - To promote a more open, sharing culture and encourage other researchers to join our efforts :) The DAVIS dataset and the research ecosystem that grew it have been massively useful for us. We hope the community will find our datasets useful as well.
 
-### Introductory blog posts
+## Links
+**Introductory blog posts:** 
 
 [insert links here]
 
-### Teaser: 
-[insert link here]
+**Teaser:** 
 
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE "Video Title")
 
-# Contributors
+(insert link here)
+
+[DAVIS Challenge (video object segmentation datasets)](http://davischallenge.org/)
+
+## Contributors
 (order to be decided)
 
 Itamar Friedman, 
