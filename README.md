@@ -17,19 +17,22 @@ With only hundreds of annotated videos, we believe every contribution has the po
 In our internal (soon to be published) analysis we have shown that a joint training on the GyGO and DAVIS datasets yields improved inference results. [todo: confirm]
 - To promote a more open, sharing culture and encourage other researchers to join our efforts :) The DAVIS dataset and the research ecosystem that grew it have been massively useful for us. We hope the community will find our datasets useful as well.
 
+## Download the dataset
+https://s3.amazonaws.com/gygox-assets/gygo-dataset.tar.gz
+
 ## Folder structure
 ```
 .
-├── OriginalFrames # folders containing RGB videos
+├── JPEGImages # folders containing RGB videos
 |   ├── 480p
-|   └── originalSize 
+|   └── original
 ├── Annotations # folders containing binary annotations
 |   ├── 480p
-|   └── originalSize
+|   └── original
 └── ImageSets
-    ├── Train.txt # contains a list of all the images for training
-    ├── trainval.txt # contains ALL the images for training and for validation    
-    └── val.txt # contains only the images for validation
+    ├── Train.txt # contains a list of all the sequences for training
+    ├── trainval.txt # contains ALL the sequences for training and for validation    
+    └── val.txt # contains a list of all the for validation
 ```
 
 ## Links
