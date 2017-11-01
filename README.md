@@ -17,8 +17,21 @@ With only hundreds of annotated videos, we believe every contribution has the po
 In our internal (soon to be published) analysis we have shown that a joint training on the GyGO and DAVIS datasets yields improved inference results. [todo: confirm]
 - To promote a more open, sharing culture and encourage other researchers to join our efforts :) The DAVIS dataset and the research ecosystem that grew it have been massively useful for us. We hope the community will find our datasets useful as well.
 
-## Download the dataset
+**Teaser:**
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/4RQff9bfJsk/0.jpg)](http://www.youtube.com/watch?v=4RQff9bfJsk "GyGO E-commerce Video Object Segmentation Dataset Teaser")
+
+
+## Download
+ 
 https://s3.amazonaws.com/gygox-assets/gygo-dataset.tar.gz
+
+Currently the dataset is comprised of **131** training and **24** validation sequences, 
+along with their corresponding high quality annotations. 
+
+Each sequence was taken by a handheld smartphone and is 1-10 seconds long. 
+The sequences were then decimated to ~5 fps.
+
 
 ## Folder structure
 ```
@@ -35,15 +48,13 @@ https://s3.amazonaws.com/gygox-assets/gygo-dataset.tar.gz
     └── val.txt # contains a list of all the for validation
 ```
 
+## Benchmarks
+TBD
+
 ## Links
-**Teaser:**
+[Video Object Segmentation — The Basics](https://medium.com/@eddiesmo/video-object-segmentation-the-basics-758e77321914)
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/4RQff9bfJsk/0.jpg)](http://www.youtube.com/watch?v=4RQff9bfJsk "GyGO E-commerce Video Object Segmentation Dataset Teaser")
-
-[Blog post: Video Object Segmentation — The Basics](https://medium.com/@eddiesmo/video-object-segmentation-the-basics-758e77321914)
-
-[Blog post: A Meta-analysis of DAVIS-2017 Video Object Segmentation Challenge](https://medium.com/@eddiesmo/a-meta-analysis-of-davis-2017-video-object-segmentation-challenge-c438790b3b56)
-
+[A Meta-analysis of DAVIS-2017 Video Object Segmentation Challenge](https://medium.com/@eddiesmo/a-meta-analysis-of-davis-2017-video-object-segmentation-challenge-c438790b3b56)
 
 [DAVIS Challenge (video object segmentation datasets)](http://davischallenge.org/)
 
