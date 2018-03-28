@@ -27,7 +27,7 @@ In our internal (soon to be published) analysis we have shown that a joint train
 
 ## Download
  
-https://s3.amazonaws.com/gygox-assets/gygo-dataset.tar.gz
+http://gygox-assets.oss-us-east-1.aliyuncs.com/gygo-dataset.tar.gz
 
 ## Folder structure
 ```
