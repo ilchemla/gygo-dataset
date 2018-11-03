@@ -1,8 +1,6 @@
 # GyGO: an E-commerce Video Object Segmentation Dataset by Visualead
 ---
 
-**To get updates as we continually release the dataset, add this project to your "watch" list in github**
-
 ## Introduction
 GyGO (pronounced jai-go) is a video object segmentation dataset focused on e-commerce.
 It is currently comprised of **131** training and **24** validation sequences, 
@@ -65,3 +63,14 @@ Irina Afanasyeva,
 Gilad Sharir,
 Sagi Nadir,
 Sagi Rorlich
+
+## Bibtex
+Bibtex:
+
+```
+@misc{
+author={Friedman, Itamar and Chemla, Ilan and Smolyansky, Eddie and Stepanov, Maxim and Afansyeva, Irina and Sharir, Gilad and Nadir, Sagi and Rorlich, Sagi}, 
+title={GyGO: an E-commerce Video Object Segmentation Dataset by Visualead}, 
+url={https://github.com/ilchemla/gygo-dataset}, 
+year={2017}, month={Sep}}
+```
