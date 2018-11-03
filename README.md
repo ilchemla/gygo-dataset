@@ -231,12 +231,10 @@ Sagi Nadir,
 Sagi Rorlich
 
 ## Bibtex
-Bibtex:
-
 ```
 @misc{
-author={Friedman, Itamar and Chemla, Ilan and Smolyansky, Eddie and Stepanov, Maxim and Afansyeva, Irina and Sharir, Gilad and Nadir, Sagi and Rorlich, Sagi}, 
+author={Friedman, Itamar and Chemla, Ilan and Smolyansky, Eddie and Stepanov, Maxim and Afansyeva, Irina and Sharir, Gilad and Nadir, Sagi and Rorlich, Sagi},
 title={GyGO: an E-commerce Video Object Segmentation Dataset by Visualead}, 
-url={https://github.com/ilchemla/gygo-dataset}, 
+url={https://github.com/ilchemla/gygo-dataset},
 year={2017}, month={Sep}}
 ```
