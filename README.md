@@ -66,16 +66,7 @@ Attached is a chart of initial benchmarks we have done for the dataset. We consi
           <div data-type="p">Zero-shot</div>
         </td>
         <td rowspan="1" colSpan="2">
-          <div data-type="p">Zero-shot</div>
-        </td>
-        <td rowspan="1" colSpan="2">
           <div data-type="p">One-shot, no fine-tuning</div>
-        </td>
-        <td rowspan="1" colSpan="2">
-          <div data-type="p">One-shot, no fine-tuning</div>
-        </td>
-        <td rowspan="1" colSpan="2">
-          <div data-type="p">One-shot with online fine-tuning</div>
         </td>
         <td rowspan="1" colSpan="2">
           <div data-type="p">One-shot with online fine-tuning</div>
