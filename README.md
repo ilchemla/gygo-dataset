@@ -43,7 +43,182 @@ https://gygox-assets.oss-us-east-1.aliyuncs.com/gygo-dataset.tar.gz
 ```
 
 ## Benchmarks
-TBD
+
+Attached is a chart of initial benchmarks we have done for the dataset. We consider the works of [OSMN](http://openaccess.thecvf.com/content_cvpr_2018/html/Yang_Efficient_Video_Object_CVPR_2018_paper.html) and [OSVOS](http://www.vision.ee.ethz.ch/~cvlsegmentation/osvos/), as well as our internal networks which were inspired by OSMN and DeeplabV3+. For reference, we add our results on the [DAVIS-2016](https://davischallenge.org/challenge2017/index.html) dataset as well.   
+
+<div class="bi-table">
+  <table>
+    <colgroup>
+      <col width="auto" />
+      <col width="auto" />
+      <col width="auto" />
+      <col width="auto" />
+      <col width="auto" />
+      <col width="auto" />
+      <col width="auto" />
+    </colgroup>
+    <tbody>
+      <tr>
+        <td rowspan="1" colSpan="1">
+          <div data-type="p">​</div>
+        </td>
+        <td rowspan="1" colSpan="2">
+          <div data-type="p">Zero-shot</div>
+        </td>
+        <td rowspan="1" colSpan="2">
+          <div data-type="p">Zero-shot</div>
+        </td>
+        <td rowspan="1" colSpan="2">
+          <div data-type="p">One-shot, no fine-tuning</div>
+        </td>
+        <td rowspan="1" colSpan="2">
+          <div data-type="p">One-shot, no fine-tuning</div>
+        </td>
+        <td rowspan="1" colSpan="2">
+          <div data-type="p">One-shot with online fine-tuning</div>
+        </td>
+        <td rowspan="1" colSpan="2">
+          <div data-type="p">One-shot with online fine-tuning</div>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="1" colSpan="1">
+          <div data-type="p">​</div>
+        </td>
+        <td rowspan="1" colSpan="1">
+          <div data-type="p">Gygo::val</div>
+        </td>
+        <td rowspan="1" colSpan="1">
+          <div data-type="p">DAVIS16::val</div>
+        </td>
+        <td rowspan="1" colSpan="1">
+          <div data-type="p">Gygo::val</div>
+        </td>
+        <td rowspan="1" colSpan="1">
+          <div data-type="p">DAVIS16::val</div>
+        </td>
+        <td rowspan="1" colSpan="1">
+          <div data-type="p">Gygo::val</div>
+        </td>
+        <td rowspan="1" colSpan="1">
+          <div data-type="p">DAVIS16::val</div>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="1" colSpan="1">
+          <div data-type="p"><strong>Gygo-OSMN (our implementation)</strong></div>
+        </td>
+        <td rowspan="1" colSpan="1">
+          <div data-type="p">N/A</div>
+        </td>
+        <td rowspan="1" colSpan="1">
+          <div data-type="p">N/A</div>
+        </td>
+        <td rowspan="1" colSpan="1">
+          <div data-type="p">​96.3% J​</div>
+          <div data-type="p">​</div>
+          <div data-type="p">7 FPS</div>
+        </td>
+        <td rowspan="1" colSpan="1">
+          <div data-type="p">​80.0% J​</div>
+          <div data-type="p">0.797 F</div>
+          <div data-type="p">8 FPS</div>
+        </td>
+        <td rowspan="1" colSpan="1">
+          <div data-type="p">​97.2% J​</div>
+          <div data-type="p">0.958 F</div>
+          <div data-type="p">0.18 FPS</div>
+        </td>
+        <td rowspan="1" colSpan="1">
+          <div data-type="p">​83.2% J​</div>
+          <div data-type="p">​</div>
+          <div data-type="p">~0.2 FPS</div>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="1" colSpan="1">
+          <div data-type="p"><strong>Gygo- Deeplabv3+ (our implementation)</strong></div>
+        </td>
+        <td rowspan="1" colSpan="1">
+          <div data-type="p">​93.3% J​</div>
+          <div data-type="p">​</div>
+          <div data-type="p">8.27 FPS</div>
+        </td>
+        <td rowspan="1" colSpan="1">
+          <div data-type="p">​75.9% J​</div>
+          <div data-type="p">​</div>
+          <div data-type="p">8.53 FPS</div>
+        </td>
+        <td rowspan="1" colSpan="1">
+          <div data-type="p">-</div>
+        </td>
+        <td rowspan="1" colSpan="1">
+          <div data-type="p">-</div>
+        </td>
+        <td rowspan="1" colSpan="1">
+          <div data-type="p">​96.0% J​</div>
+          <div data-type="p">​</div>
+          <div data-type="p">~0.52 FPS</div>
+        </td>
+        <td rowspan="1" colSpan="1">
+          <div data-type="p">​79.0% J​</div>
+          <div data-type="p">​</div>
+          <div data-type="p">1.38 FPS</div>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="1" colSpan="1">
+          <div data-type="p">Original OSMN (Previous SOTA)</div>
+        </td>
+        <td rowspan="1" colSpan="1">
+          <div data-type="p">-</div>
+        </td>
+        <td rowspan="1" colSpan="1">
+          <div data-type="p">-</div>
+        </td>
+        <td rowspan="1" colSpan="1">
+          <div data-type="p">​95.1% J​</div>
+          <div data-type="p">​</div>
+          <div data-type="p">7 FPS</div>
+        </td>
+        <td rowspan="1" colSpan="1">
+          <div data-type="p">​73.6% J​</div>
+          <div data-type="p">​</div>
+          <div data-type="p">8 FPS</div>
+        </td>
+        <td rowspan="1" colSpan="1">
+          <div data-type="p">-</div>
+        </td>
+        <td rowspan="1" colSpan="1">
+          <div data-type="p">-</div>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="1" colSpan="1">
+          <div data-type="p">Original OSVOS</div>
+        </td>
+        <td rowspan="1" colSpan="1">
+          <div data-type="p">​</div>
+        </td>
+        <td rowspan="1" colSpan="1">
+          <div data-type="p">​</div>
+        </td>
+        <td rowspan="1" colSpan="1">
+          <div data-type="p">​</div>
+        </td>
+        <td rowspan="1" colSpan="1">
+          <div data-type="p">​</div>
+        </td>
+        <td rowspan="1" colSpan="1">
+          <div data-type="p">93% J</div>
+        </td>
+        <td rowspan="1" colSpan="1">
+          <div data-type="p">79.8% J0.11 FPS on TITAN X (10 min per sequence)</div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ## Links
 [Video Object Segmentation — The Basics](https://medium.com/@eddiesmo/video-object-segmentation-the-basics-758e77321914)
