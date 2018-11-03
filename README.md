@@ -211,6 +211,9 @@ Attached is a chart of initial benchmarks we have done for the dataset. We consi
   </table>
 </div>
 
+* The benchmarks were run on a P100 GPU, except when quoting original papers
+* J = Jaccard index  
+
 ## Links
 [Video Object Segmentation — The Basics](https://medium.com/@eddiesmo/video-object-segmentation-the-basics-758e77321914)
 
